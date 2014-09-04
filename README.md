@@ -26,7 +26,8 @@ app.config(function ($bootboxProvider) {
 
 ```js
 app.controller('eventsController', ['$scope', 'bootbox', function ($scope, bootbox) {
-bootbox.confirm("Are you sure?", function (result) {
-    return true;
-});
+  bootbox.confirm("Are you sure?", function (result) {
+      return true;
+  });
+}]);
 ```
